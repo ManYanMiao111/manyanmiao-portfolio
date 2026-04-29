@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ManYanMiao | Other Works</title>
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index1.html">ManYanMiao</a>
+      <nav class="nav-links">
+        <a href="index1.html">Home</a>
+        <a href="about1.html">About</a>
+        <a href="dream-master1.html">The Dream Master</a>
+        <a href="giotto1.html">Giotto</a>
+        <a href="lost-heart1.html">Lost Heart Book Series</a>
+        <a class="active" href="other-works1.html">Other Works</a>
+        <a href="contact1.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container">
+        <div class="page-intro">
+          <div class="eyebrow">Section 4</div>
+          <h1>Other Works</h1>
+          <p>Selected independent works, posters, and illustration experiments.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="art-card">
+            <div class="art-image"><img src="images/Snow%20white%20poster.JPG" alt="Snow White poster" onclick="openLightbox(this.src)"></div>
+            <div class="art-info"><h3>Snow White poster</h3><p>Other Works</p></div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image"><img src="images/Illustration%20of%20a%20Song.PNG" alt="Illustration of a song" onclick="openLightbox(this.src)"></div>
+            <div class="art-info"><h3>Illustration of a song</h3><p>Other Works</p></div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image"><img src="images/Rotten%20World.PNG" alt="Rotten World" onclick="openLightbox(this.src)"></div>
+            <div class="art-info"><h3>Rotten World</h3><p>Other Works</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 ManYanMiao. All rights reserved.
+  </footer>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" onclick="closeLightbox(event)">×</button>
+      <img id="lightboxImage" src="" alt="Expanded artwork">
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
