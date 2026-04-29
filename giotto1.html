@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ManYanMiao | Giotto</title>
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index1.html">ManYanMiao</a>
+      <nav class="nav-links">
+        <a href="index1.html">Home</a>
+        <a href="about1.html">About</a>
+        <a href="dream-master1.html">The Dream Master</a>
+        <a class="active" href="giotto1.html">Giotto</a>
+        <a href="lost-heart1.html">Lost Heart Book Series</a>
+        <a href="other-works1.html">Other Works</a>
+        <a href="contact1.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container">
+        <div class="page-intro">
+          <div class="eyebrow">Section 2</div>
+          <h1>Giotto</h1>
+          <p>A visual series centered on dreamlike scenes, emotional tension, and bedtime imagery.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/drowning1.png" alt="Drowning 1" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>Drowning 1.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/drowning2.png" alt="Drowning 2" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>Drowning 2.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/drowning3.png" alt="Drowning 3" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>Drowning 3.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/bedtime1.jpg" alt="When is bedtime 1" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>When is bedtime? 1.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/bedtime2.jpg" alt="When is bedtime 2" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>When is bedtime? 2.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/bedtime3.jpg" alt="When is bedtime 3" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>When is bedtime? 3.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/bedtime4.jpg" alt="When is bedtime 4" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>When is bedtime? 4.0</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-image">
+              <img src="images/dontlookback.png" alt="Don't look back" onclick="openLightbox(this.src)">
+            </div>
+            <div class="art-info">
+              <h3>Don’t look back</h3>
+              <p>Giotto series</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 ManYanMiao. All rights reserved.
+  </footer>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" onclick="closeLightbox(event)">×</button>
+      <img id="lightboxImage" src="" alt="Expanded artwork">
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
